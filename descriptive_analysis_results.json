@@ -1,0 +1,234 @@
+{
+  "basic_info": {
+    "shape": "(51, 4)",
+    "columns": [
+      "saledate",
+      "bedrooms",
+      "MA",
+      "type"
+    ],
+    "dtypes": {
+      "saledate": "datetime64[ns, UTC]",
+      "bedrooms": "int64",
+      "MA": "float64",
+      "type": "object"
+    },
+    "missing_values": {
+      "saledate": 0,
+      "bedrooms": 0,
+      "MA": 0,
+      "type": 0
+    },
+    "memory_usage": 4110
+  },
+  "descriptive_stats": {
+    "basic": [
+      {
+        "bedrooms": 51.0,
+        "MA": 51.0
+      },
+      {
+        "bedrooms": 2.0,
+        "MA": 469486.8039215686
+      },
+      {
+        "bedrooms": 0.0,
+        "MA": 23652.633648724706
+      },
+      {
+        "bedrooms": 2.0,
+        "MA": 421291.0
+      },
+      {
+        "bedrooms": 2.0,
+        "MA": 451549.5
+      },
+      {
+        "bedrooms": 2.0,
+        "MA": 469149.0
+      },
+      {
+        "bedrooms": 2.0,
+        "MA": 487770.0
+      },
+      {
+        "bedrooms": 2.0,
+        "MA": 510712.0
+      }
+    ],
+    "additional": [
+      {
+        "skewness": 0.0,
+        "kurtosis": 0.0,
+        "median": 2.0,
+        "mode": 2.0,
+        "range": 0.0,
+        "iqr": 0.0
+      },
+      {
+        "skewness": 0.0528520654737305,
+        "kurtosis": -0.8199161767660197,
+        "median": 469149.0,
+        "mode": 441854.0,
+        "range": 89421.0,
+        "iqr": 36220.5
+      }
+    ]
+  },
+  "group_analysis": {
+    "by_type": [
+      {
+        "count": 51,
+        "mean": 469486.8,
+        "median": 469149.0,
+        "std": 23652.63,
+        "min": 421291.0,
+        "max": 510712.0
+      }
+    ],
+    "by_bedrooms": [
+      {
+        "count": 51,
+        "mean": 469486.8,
+        "median": 469149.0,
+        "std": 23652.63,
+        "min": 421291.0,
+        "max": 510712.0
+      }
+    ],
+    "combined": [
+      {
+        "count": 51,
+        "mean": 469486.8,
+        "median": 469149.0,
+        "std": 23652.63
+      }
+    ]
+  },
+  "correlation_analysis": {
+    "correlation_matrix": [
+      {
+        "bedrooms": NaN,
+        "MA": NaN
+      },
+      {
+        "bedrooms": NaN,
+        "MA": 1.0
+      }
+    ],
+    "strong_correlations": []
+  },
+  "temporal_analysis": {
+    "date_range": {
+      "start": "2007-03-30 20:00:00+00:00",
+      "end": "2019-09-29 21:00:00+00:00",
+      "duration_days": 4566
+    },
+    "yearly_stats": [
+      {
+        "count": 4,
+        "mean": 431572.5,
+        "median": 431572.5,
+        "std": 11872.05
+      },
+      {
+        "count": 4,
+        "mean": 443886.75,
+        "median": 441854.0,
+        "std": 5185.84
+      },
+      {
+        "count": 4,
+        "mean": 442733.25,
+        "median": 442348.5,
+        "std": 2491.77
+      },
+      {
+        "count": 4,
+        "mean": 458239.75,
+        "median": 458457.5,
+        "std": 1142.89
+      },
+      {
+        "count": 4,
+        "mean": 465856.25,
+        "median": 466167.0,
+        "std": 4083.7
+      },
+      {
+        "count": 4,
+        "mean": 467130.75,
+        "median": 467534.0,
+        "std": 3282.77
+      },
+      {
+        "count": 4,
+        "mean": 453352.75,
+        "median": 452893.0,
+        "std": 2556.28
+      },
+      {
+        "count": 4,
+        "mean": 474096.25,
+        "median": 474026.0,
+        "std": 3626.99
+      },
+      {
+        "count": 4,
+        "mean": 477994.0,
+        "median": 477864.0,
+        "std": 857.89
+      },
+      {
+        "count": 4,
+        "mean": 487283.0,
+        "median": 487770.0,
+        "std": 3761.97
+      },
+      {
+        "count": 4,
+        "mean": 501140.0,
+        "median": 501719.0,
+        "std": 5485.06
+      },
+      {
+        "count": 4,
+        "mean": 505920.75,
+        "median": 506058.5,
+        "std": 1207.61
+      },
+      {
+        "count": 3,
+        "mean": 502334.33,
+        "median": 500158.0,
+        "std": 7529.22
+      }
+    ],
+    "quarterly_stats": [
+      {
+        "count": 13,
+        "mean": 467370.46,
+        "median": 469920.0,
+        "std": 24639.63
+      },
+      {
+        "count": 13,
+        "mean": 468696.38,
+        "median": 469149.0,
+        "std": 25219.69
+      },
+      {
+        "count": 13,
+        "mean": 472344.85,
+        "median": 467546.0,
+        "std": 23892.47
+      },
+      {
+        "count": 12,
+        "mean": 469539.58,
+        "median": 466711.5,
+        "std": 23416.89
+      }
+    ]
+  }
+}
